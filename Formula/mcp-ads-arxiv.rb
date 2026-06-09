@@ -4,7 +4,7 @@ class McpAdsArxiv < Formula
   desc "MCP server: read scientific papers from LaTeX source via NASA ADS + arXiv"
   homepage "https://github.com/estevesjh/mcp-ads-arxiv"
   url "https://github.com/estevesjh/mcp-ads-arxiv/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "72ea135e561d3dbf48a5a3a8f276ae487088d0b6cdde25928c7ae4caccd0a47e"
+  sha256 "696513230bfce12fc8e83fdb35b7071aa027538e74376bc61542372bf2b1b463"
   license "MIT"
 
   depends_on "python@3.11"
