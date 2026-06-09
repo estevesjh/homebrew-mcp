@@ -1,4 +1,6 @@
 class McpAdsArxiv < Formula
+  include Language::Python::Virtualenv
+
   desc "MCP server: read scientific papers from LaTeX source via NASA ADS + arXiv"
   homepage "https://github.com/estevesjh/mcp-ads-arxiv"
   url "https://github.com/estevesjh/mcp-ads-arxiv/archive/refs/tags/v0.1.0.tar.gz"
