@@ -10,9 +10,7 @@ class McpAdsArxiv < Formula
   depends_on "python@3.11"
 
   def install
-    venv = virtualenv_create(libexec, "python3.11")
-    venv.pip_install buildpath
-    bin.install_symlink libexec/"bin/mcp-ads-arxiv"
+    virtualenv_install_with_resources
   end
 
   def caveats
